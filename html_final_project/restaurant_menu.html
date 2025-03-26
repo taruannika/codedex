@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>The Urban Fork</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-center">
+          <h1>Urban Fork</h1>
+          <ul class="nav-links">
+            <li><a class="nav-link" href="#menu">Menu</a></li>
+            <li><a class="nav-link" href="#place-order">Order</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <section class="page-header">
+        <div class="page-header_info">
+          <h2 class="heading">Bite into Flavor. <span>Eat.</span> Repeat</h2>
+          <p class="desc">
+            No frills, just flavor! Enjoy fast, delicious, and crave-worthy
+            meals made fresh for food lovers on the go.
+          </p>
+          <div class="cta-container">
+            <a class="cta" href="#menu">Check Our Menu</a>
+            <a class="cta" href="#place-order">Place Order</a>
+          </div>
+        </div>
+
+        <figure class="header_img-container">
+          <img
+            id="header-img"
+            src="./assets/images/header-img.png"
+            alt="image of pizza"
+          />
+        </figure>
+      </section>
+    </header>
+
+    <main>
+      <section id="chefs">
+        <h2>Our Chefs</h2>
+        <div class="chef-container">
+          <article class="chef">
+            <h3>John Doe</h3>
+            <figure>
+              <img
+                class="chef-img"
+                src="./assets/images/chef1.jpg"
+                alt="John Doe"
+              />
+            </figure>
+          </article>
+          <article class="chef">
+            <h3>Kim Cave</h3>
+            <figure>
+              <img
+                class="chef-img"
+                src="./assets/images/chef2.jpg"
+                alt="Kim Cave"
+              />
+            </figure>
+          </article>
+          <article class="chef">
+            <h3>Mike Dove</h3>
+            <figure>
+              <img
+                class="chef-img"
+                src="./assets/images/chef3.jpg"
+                alt="Mike Dove"
+              />
+            </figure>
+          </article>
+          <article class="chef">
+            <h3>Conor Jordan</h3>
+            <figure>
+              <img
+                class="chef-img"
+                src="./assets/images/chef4.jpg"
+                alt="Conor Jordan"
+              />
+            </figure>
+          </article>
+        </div>
+      </section>
+
+      <section id="menu">
+        <div class="menu-container">
+          <h2>Menu</h2>
+          <div class="menu-items">
+            <article class="menu-item">
+              <h3>Salad</h3>
+              <figure>
+                <img src="./assets/images/salad.jpg" alt="salad" />
+              </figure>
+              <p>
+                Fresh, crisp, and full of vibrant flavors, our salads are
+                crafted with the finest greens and house-made dressings.
+              </p>
+              <p class="price">10.99€</p>
+            </article>
+            <article class="menu-item">
+              <h3>soup</h3>
+              <figure>
+                <img src="./assets/images/soup.jpg" alt="soup" />
+              </figure>
+              <p>
+                Warm, comforting, and full of flavor, our soups are made fresh
+                daily with the finest seasonal ingredients
+              </p>
+              <p class="price">7.20€</p>
+            </article>
+            <article class="menu-item">
+              <h3>Pasta</h3>
+              <figure>
+                <img src="./assets/images/pasta.jpg" alt="pasta" />
+              </figure>
+              <p>
+                A delightful selection of classic and creamy pasta dishes, made
+                with fresh ingredients and rich, homemade sauces.
+              </p>
+              <p class="price">11.50€</p>
+            </article>
+            <article class="menu-item">
+              <h3>Steak</h3>
+              <figure>
+                <img src="./assets/images/steak.jpg" alt="steak" />
+              </figure>
+              <p>
+                Premium cuts, expertly grilled to perfection and served with
+                delicious sides to satisfy every craving.
+              </p>
+              <p class="price">19.50€</p>
+            </article>
+            <article class="menu-item">
+              <h3>Risotto</h3>
+              <figure>
+                <img src="./assets/images/risotto.jpg" alt="risotto" />
+              </figure>
+              <p>
+                Creamy, rich, and perfectly cooked, our risotto is a true
+                Italian delight, bursting with flavor in every bite
+              </p>
+              <p class="price">14.99€</p>
+            </article>
+            <article class="menu-item">
+              <h3>Pizza</h3>
+              <figure>
+                <img src="./assets/images/pizza.jpg" alt="pizza" />
+              </figure>
+              <p>
+                Hand-tossed, stone-baked, and topped with premium ingredients
+                for the perfect balance of crunch and flavor.
+              </p>
+              <p class="price">9.60€</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section id="place-order">
+        <h2>Place Your Order</h2>
+
+        <form>
+          <div class="form-row">
+            <label for="salad">Salads:</label>
+            <input type="number" id="salad" name="salad" min="0" value="0" />
+            <input type="checkbox" id="salad-drink" name="salad-drink" />
+            <label for="salad-drink">drink</label>
+          </div>
+          <div class="form-row">
+            <label for="soup">Soups:</label>
+            <input type="number" id="soup" name="soup" min="0" value="0" />
+            <input type="checkbox" id="soup-drink" name="soup-drink" />
+            <label for="soup-drink">drink</label>
+          </div>
+          <div class="form-row">
+            <label for="pasta">Pastas:</label>
+            <input type="number" id="pasta" name="pasta" min="0" value="0" />
+            <input type="checkbox" id="pasta-drink" name="pasta-drink" />
+            <label for="pasta-drink">drink</label>
+          </div>
+          <div class="form-row">
+            <label for="steak">Steaks:</label>
+            <input type="number" id="steak" name="steak" min="0" value="0" />
+            <input type="checkbox" name="steak-drink" id="steak-drink" />
+            <label for="steak-drink">drink</label>
+          </div>
+          <div class="form-row">
+            <label for="risotto">Risottos:</label>
+            <input
+              type="number"
+              id="risotto"
+              name="risotto"
+              min="0"
+              value="0"
+            />
+            <input type="checkbox" id="risotto-drink" name="risotto-drink" />
+            <label for="risotto-drink">drink</label>
+          </div>
+          <div class="form-row">
+            <label for="pizza">Pizzas:</label>
+            <input type="number" id="pizza" name="pizza" min="0" value="0" />
+            <input type="checkbox" id="pizza-drink" name="pizza-drink" />
+            <label for="pizza-drink">drink</label>
+          </div>
+
+          <textarea name="special" id="special" rows="10" cols="10">
+Feel free to make special requests</textarea
+          >
+
+          <input type="submit" value="Go To Checkout" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-center">
+        <p>Made with love by TaruH</p>
+      </div>
+    </footer>
+  </body>
+</html>
