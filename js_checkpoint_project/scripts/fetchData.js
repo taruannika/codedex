@@ -1,15 +1,12 @@
 const options = {
   method: "GET",
   headers: {
-    "x-rapidapi-key": window.RAPIDAPI_KEY,
-    "x-rapidapi-host": window.RAPIDAPI_HOST,
+    "x-rapidapi-key": "93c3d09667msha4e01d241b4fad2p12d872jsnbc22fe751bb2",
+    "x-rapidapi-host": "horoscope19.p.rapidapi.com",
   },
 };
 
 const fetchData = async (sign) => {
-  console.log("Fetching data for sign:", sign);
-  console.log("Using API Key:", window.RAPIDAPI_KEY);
-  console.log("Using API Host:", window.RAPIDAPI_HOST);
   try {
     const response = await fetch(
       `https://horoscope19.p.rapidapi.com/get-horoscope/monthly?sign=${sign}`,
