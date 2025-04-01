@@ -1,0 +1,13 @@
+
+*.log
+.env
+.cache/
+*.tmp
+.vscode/
+.idea/
+config.js
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.orig
