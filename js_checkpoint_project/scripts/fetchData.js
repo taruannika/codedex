@@ -7,6 +7,9 @@ const options = {
 };
 
 const fetchData = async (sign) => {
+  console.log("Fetching data for sign:", sign);
+  console.log("Using API Key:", window.RAPIDAPI_KEY);
+  console.log("Using API Host:", window.RAPIDAPI_HOST);
   try {
     const response = await fetch(
       `https://horoscope19.p.rapidapi.com/get-horoscope/monthly?sign=${sign}`,
