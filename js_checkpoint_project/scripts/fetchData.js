@@ -1,10 +1,8 @@
-import { CONFIG } from "./config.js";
-
 const options = {
   method: "GET",
   headers: {
-    "x-rapidapi-key": CONFIG.RAPIDAPI_KEY,
-    "x-rapidapi-host": CONFIG.RAPIDAPI_HOST,
+    "x-rapidapi-key": window.RAPIDAPI_KEY,
+    "x-rapidapi-host": window.RAPIDAPI_HOST,
   },
 };
 
