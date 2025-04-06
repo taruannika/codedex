@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/todo.css" />
+    <script
+      src="https://kit.fontawesome.com/394a5f7d1f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header id="nav-container"></header>
+
+    <main id="todo">
+      <section id="add-todo-section">
+        <div class="add-todo-content">
+          <input id="user-input" type="text" placeholder="Enter title..." />
+          <input id="add-todo-btn" type="submit" value="Add Todo" />
+        </div>
+      </section>
+
+      <section id="todos-section">
+        <div class="todos-content">
+          <!--FILTER TODOS -->
+          <div class="filter-todos">
+            <button class="filter-btn" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="completed">
+              Completed
+            </button>
+            <button class="filter-btn" data-filter="pending">Pending</button>
+          </div>
+          <!--TODOS-->
+          <div id="todos"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./scripts/navbar.js"></script>
+    <script src="./scripts/todo.js"></script>
+  </body>
+</html>

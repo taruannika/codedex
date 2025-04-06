@@ -1,0 +1,61 @@
+<nav class="navbar">
+  <!--NAV MENU FOR DESKTOP-->
+  <ul class="navlist">
+    <li class="nav-item logo">
+      <a href="index.html">JS Fusion</a>
+    </li>
+    <li class="nav-item hideOnMobile">
+      <a href="todo.html">Todo</a>
+    </li>
+    <li class="nav-item hideOnMobile">
+      <a href="#">Weather</a>
+    </li>
+    <li class="nav-item hideOnMobile">
+      <a href="#">Pomodoro</a>
+    </li>
+    <li class="nav-item hideOnMobile">
+      <a href="#">Clock</a>
+    </li>
+    <li class="nav-item hideOnMobile">
+      <a href="#">Flappy Bird</a>
+    </li>
+
+    <li class="nav-item menu-btn hideOnMobile" onclick="toggleSidebar()">
+      <a>
+        <i class="fa-solid fa-bars"></i>
+      </a>
+    </li>
+    <li class="nav-item theme-toggle hideOnMobile" onclick="toggleTheme()">
+      <a href="#">
+        <i class="theme-icon" class="fa-solid fa-moon"></i>
+      </a>
+    </li>
+  </ul>
+
+  <!--NAV MENU FOR TABLETS AND MOBILE-->
+  <ul class="sidebar">
+    <li class="nav-item close-btn" onclick="toggleSidebar()">
+      <a> <i class="fa-solid fa-xmark"></i></a>
+    </li>
+    <li class="nav-item theme-toggle" onclick="toggleTheme()">
+      <a href="#">
+        <i class="theme-icon" class="fa-solid fa-sun"></i>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="todo.html">Todo App</a>
+    </li>
+    <li class="nav-item">
+      <a href="#">Weather App</a>
+    </li>
+    <li class="nav-item">
+      <a href="#">Pomodoro App</a>
+    </li>
+    <li class="nav-item">
+      <a href="#">Analog Clock</a>
+    </li>
+    <li class="nav-item">
+      <a href="#">Flappy Bird</a>
+    </li>
+  </ul>
+</nav>
