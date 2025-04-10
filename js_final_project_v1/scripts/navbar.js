@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const navContainer = document.querySelector("#nav-container");
 
   // when DOM content is loaded, add navbar to page and update theme icon
-  fetch("./navbar.html")
+  fetch("/navbar.html")
     .then((response) => response.text())
     .then((html) => {
       navContainer.innerHTML = html;

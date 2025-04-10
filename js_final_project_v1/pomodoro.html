@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/pomodoro.css" />
+    <script
+      src="https://kit.fontawesome.com/394a5f7d1f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header id="nav-container"></header>
+
+    <main id="pomodoro-app">
+      <section class="timer-section">
+        <h1>Pomodoro Timer</h1>
+        <div class="timer-display">
+          <div class="timer-circle">
+            <h3 id="session-text"></h3>
+            <p id="time"></p>
+          </div>
+        </div>
+
+        <div class="timer-controls">
+          <button onclick="startTimer()" id="start-btn" class="control-btn">
+            Start
+          </button>
+          <button onclick="pauseTimer()" id="pause-btn" class="control-btn">
+            Pause
+          </button>
+          <button onclick="resetTimer()" id="reset-btn" class="control-btn">
+            Reset
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="./scripts/navbar.js"></script>
+    <script src="./scripts/pomodoro.js"></script>
+  </body>
+</html>

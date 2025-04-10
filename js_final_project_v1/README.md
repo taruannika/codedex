@@ -10,7 +10,7 @@ This repository contains multiple JavaScript projects that showcase various func
 
 ### 1. **Todo List Application**
 
-- **Description:** A simple todo list app where users can add, delete, and filter tasks based on their completion status.
+- **Description:** A simple todo list app where users can add, delete, update and filter tasks based on their completion status.
 - **Features:**
   - Add new todos.
   - Mark todos as completed or pending.
@@ -27,8 +27,8 @@ This repository contains multiple JavaScript projects that showcase various func
 - **Description:** A productivity timer based on the Pomodoro Technique to help users manage their time effectively.
 - **Features:**
   - Start, pause, and reset the timer.
-  - Customizable work and break intervals.
   - Visual and audio notifications.
+  - Light and dark theme support.
 - **Tech Used:** HTML, CSS, JavaScript
 
 ---
@@ -38,7 +38,6 @@ This repository contains multiple JavaScript projects that showcase various func
 - **Description:** A weather application that fetches real-time weather data using an API.
 - **Features:**
   - Get Weather based on current location
-  - Search for weather by city.
   - Display current temperature, weather conditions, and more.
   - Responsive design for mobile and desktop.
 - **Tech Used:** HTML, CSS, JavaScript, OpenWeather API
