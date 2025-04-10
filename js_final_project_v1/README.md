@@ -2,7 +2,7 @@
 
 This repository contains multiple JavaScript projects that showcase various functionalities and concepts. Each project is designed to demonstrate creativity, problem-solving, and technical skills.
 
-**Link to project:** [Live Demo]([http://recruiters-love-seeing-live-demos.com/](https://jsfusion.onrender.com/])
+**Link to project:** [Live Demo]([http://recruiters-love-seeing-live-demos.com/](https://jsfusion.onrender.com/)]
 
 ---
 
